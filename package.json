@@ -31,7 +31,7 @@
     "test:watch": "npm run test:coverage --watch",
     "test": "npm run test:coverage",
     "pretest": "npm run lint",
-    "prepare": "husky install && npm run build",
+    "prepare": "echo 'husky install && npm run build'",
     "release": "standard-version"
   },
   "dependencies": {
