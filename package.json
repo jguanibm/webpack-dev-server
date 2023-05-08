@@ -31,7 +31,7 @@
     "test:watch": "npm run test:coverage --watch",
     "test": "npm run test:coverage",
     "pretest": "npm run lint",
-    "prepare": "ls",
+    "prepare": "cd ../.. && husky install node_modules/webpack-dev-server/.husky",
     "release": "standard-version"
   },
   "dependencies": {
